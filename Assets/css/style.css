@@ -39,12 +39,32 @@ header {
     text-decoration: underline;
 }
 
-
-
 h1 {
     margin-right: auto;
 
     font-size: 52px;
     color: var(--darkslateblue);
     background-color: var(--skyblue);
+}
+
+/* Work Section */
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#work ul li {
+    border: 4px solid var(--skyblue);
+    margin: 2px;
+}
+
+.largeTile {
+    max-width: 600px;
+}
+
+.smallTile {
+    max-height: 100px;
 }
