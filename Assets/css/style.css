@@ -1,0 +1,50 @@
+:root {
+    --skyblue: #92cccd;
+    --darkslateblue: #445876;
+    --darkslategray: #31343d;
+}
+
+a {
+    color: var(--skyblue);
+    text-decoration: none;
+}                                  /* Unvisited link  */        
+a:visited {color: var(--skyblue);} /* Visited link    */
+a:hover {color: var(--skyblue);}   /* Mouse over link */
+a:active {color: var(--skyblue);}  /* Selected link   */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+
+    background-color: var(--darkslategray);
+}
+
+.navAncestor {
+    list-style: none;
+}
+
+.navAncestor li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav {
+    color: var(--skyblue);
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+
+
+h1 {
+    margin-right: auto;
+
+    font-size: 52px;
+    color: var(--darkslateblue);
+    background-color: var(--skyblue);
+}
