@@ -9,7 +9,7 @@
 
     <body>
         <header>
-            <h1>__Lernantino.</h1>
+            <h1>Lernantino.</h1>
             <nav>
                 <ul class="navAncestor">
                     <li class="nav"><a href="#aboutMe" alt="About Me section link">About Me</a></li>
@@ -21,37 +21,42 @@
         </header>
         
         <main>
+            <div class="row">
             <!-- Side Nav -->
-            <aside>
-                
+            <aside class="column">
+                <h2>About Me</h2>
             </aside>
             <!-- About Me -->
-            <section id="aboutMe">
-
+            <section id="aboutMe" class="doubleColumn">
+                <p>Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.</p>
             </section>
-
+        </div>
+        <div class="row2">
             <!-- Work -->
-            <section id="work">
+            <aside class="column">
+                <h2>Work</h2>
+            </aside>
+            <section id="work" class="doubleColumn">
                 <ul class="workList">
-                    <li>
+                    <li class="doubleColumn">
                         <img class="largeTile" src="./Assets/img/surf.jpg" alt="surfer on a wave">
                         <h3>Surf Report</h3>
                         <p>MERN Stack</p>
                     </li>
-                    <li>
+                    <li class="column">
                         <img class="smallTile" src="./Assets/img/LED.jpeg" alt="close up LED screen">
                         <h3>LED Wall</h3>
                         <p>Node/IoT</p>
                     </li>
-                    <li>
+                    <li class="column">
                         <h3>Calculator</h3>
                         <p>React/JavaScript/CSS</p>
                     </li>
-                    <li>
+                    <li class="column">
                         <h3>Pastel Puzzels</h3>
                         <p>????</p>
                     </li>
-                    <li>
+                    <li class="column">
                         <h3>Run Buddy</h3>
                         <p>????</p>
                     </li>
@@ -62,6 +67,7 @@
             <section id="contactMe">
 
             </section>
+        </div>
         </main>
 
         <footer>

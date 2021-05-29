@@ -4,6 +4,34 @@
     --darkslategray: #31343d;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.doubleColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+}
+
 a {
     color: var(--skyblue);
     text-decoration: none;
@@ -42,9 +70,16 @@ header {
 h1 {
     margin-right: auto;
 
+    text-indent: 50px;
     font-size: 52px;
     color: var(--darkslateblue);
     background-color: var(--skyblue);
+}
+
+/* About me Section */
+
+#aboutMe p {
+    padding: 40px;
 }
 
 /* Work Section */
@@ -62,9 +97,21 @@ h1 {
 }
 
 .largeTile {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .smallTile {
-    max-height: 100px;
+    max-width: 100%;
+}
+
+/* Side Nav */ 
+
+aside h2 {
+
+    border-right: 4px solid var(--darkslateblue);
+    color: var(--darkslateblue);
+    text-align: right;
+    font-size: 58px;
+    margin-top: 20px;
+    padding-right: 10px;
 }
