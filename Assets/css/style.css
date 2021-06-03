@@ -101,10 +101,12 @@ h1 {
 
 .largeTile {
     max-width: 100%;
+    height: auto;
 }
 
 .smallTile {
-    max-width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Side Nav */ 
@@ -118,4 +120,31 @@ aside h2 {
     margin-top: 20px;
     
     padding-right: 10px;
+}
+
+/* Project Title Overlay */
+
+.textOverlay {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+
+    padding: 5px 10px;
+    width: 140px;
+    
+
+    color: var(--darkslateblue);
+    background: var(--skyblue);
+}
+
+li h3 {
+    font-size: 24px;
+    bottom: 40px;
+}
+
+li p {
+    font-size: 14px;
+    bottom: 20px;
 }
