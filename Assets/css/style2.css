@@ -4,6 +4,12 @@
     --darkslategray: #31343d;
 }
 
+/* Scroll affect when clicking links */
+
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Image Size Fix */
 
 .largeIMG {
@@ -40,13 +46,18 @@ header {
     background-color: var(--darkslategray);
 }
 
-footer {
+/* footer {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
     height: 50px;
     width: 100%;
     margin-top: 10px;
 
     background-color: var(--darkslategray);
-}
+} */
 
 /* Flex Box Formatting */ 
 
