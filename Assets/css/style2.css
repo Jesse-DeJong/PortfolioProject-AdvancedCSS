@@ -4,6 +4,8 @@
     --darkslategray: #31343d;
 }
 
+/* Header/Footer Formatting */
+
 header {
     height: 100px;
     width: 100%;
@@ -60,3 +62,52 @@ footer {
 
     background: green;
 }
+
+.sectionSplit {
+    margin-top: 3px;
+}
+
+/* Top NavBar Flex Formatting */
+.navFlexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+
+    list-style: none;
+}
+
+.headerNavColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    flex-basis: 100%;
+    flex: 1;
+    margin-right: 5px;
+
+    background: pink;
+}
+
+/* Heading Formatting */
+
+h3 {
+    color: var(--darkslateblue);
+    font-size: 32px;
+    font-weight: 800;
+
+    padding-right: 10px;
+
+    border-right: 3px solid var(--darkslateblue);
+}
+
+h1 {
+    display: inline-block;
+    background: var(--skyblue);
+    margin-top: 25px;
+    padding-left: 30px;
+
+    color: var(--darkslateblue);
+    line-height: 50px;
+    font-size: 40px;
+}
+
