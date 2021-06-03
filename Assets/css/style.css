@@ -4,6 +4,8 @@
     --darkslategray: #31343d;
 }
 
+/* Flex Box Formatting */
+
 .row {
     display: flex;
     flex-direction: row;
@@ -31,6 +33,8 @@
     flex-basis: 100%;
     flex: 2;
 }
+
+/* Hyperlink Formatting */
 
 a {
     color: var(--skyblue);
@@ -99,14 +103,18 @@ h1 {
     margin-bottom: 20px;
 }
 
+.liCol {
+    max-width: 300px;
+}
+
 .largeTile {
-    max-width: 100%;
-    height: auto;
+    max-width: auto;
+    max-height: 400px;
 }
 
 .smallTile {
-    max-width: 100%;
-    height: auto;
+    max-width: auto;
+    max-height: 100px;
 }
 
 /* Side Nav */ 
@@ -140,6 +148,7 @@ aside h2 {
 }
 
 li h3 {
+    font-weight: 800;
     font-size: 24px;
     bottom: 40px;
 }

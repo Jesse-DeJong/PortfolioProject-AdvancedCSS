@@ -13,6 +13,7 @@ With these points in mind, in this homework you’ll set yourself up for future 
 Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
 
 ![Still](./assets/img/Still.png)
+![Still](./assets/img/Still2.png)
 
 ## User Story
 
