@@ -7,16 +7,21 @@
 <link rel="stylesheet" href="./Assets/css/style2.css">
 
     <body>
-        <header>
+        <header class="navFlexContainer">
+            <h1>Lernantino.</h1>
             <nav>
-                <h1>Lernantino.</h1>
-
-            </nav>
+                
+                <ul>
+                    <li class="headerNavColumn"><a href="#aboutMe" alt="About Me section link">About Me</a></li>
+                    <li class="headerNavColumn"><a href="#work" alt="Work examples section link">Work</a></li>
+                    <li class="headerNavColumn"><a href="#contactMe" alt="Contact section link">Contact Me</a></li>
+                    <li class="headerNavColumn"><a href="#" alt="Resume Link">Resume</a></li>
+                </ul>
         </header>
 
         <main>
             <!-- About Me Container -->
-            <div class="flexContainer">
+            <section id="aboutMe" class="flexContainer">
                 <aside class="navColumn">
                     <h3>About Me</h3>
                     
@@ -24,10 +29,10 @@
                 <div class="contentColumnAM">
                     <p>Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.</p>
                 </div>
-            </div>
+            </section>
 
             <!-- Work DoubleWide Container -->
-            <section class="flexContainer sectionSplit">
+            <section id="work" class="flexContainer sectionSplit">
                 <aside class="navColumn">
                     <h3>Work</h3>
                 </aside>
@@ -88,7 +93,7 @@
             </section>
 
             <!-- Contact Me Container -->
-            <div class="flexContainer sectionSplit">
+            <section id="contactMe" class="flexContainer sectionSplit">
                 <aside class="navColumn">
                     <h3>Contact Me</h3>
                 
@@ -102,7 +107,7 @@
                         <li>Spotify</li>
                     </ul>
                 </div>
-            </div>
+            </section>
         </main>
 
         <footer>
