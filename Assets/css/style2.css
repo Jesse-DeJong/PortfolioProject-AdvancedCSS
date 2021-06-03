@@ -7,9 +7,10 @@
 /* Image Size Fix */
 
 .largeIMG {
-    max-width: 615px;
+    max-width: 612px;
     max-height: 400px;
     margin-left: 3px;
+    margin-right: 3px;
 }
 
 .smallIMG {
@@ -40,7 +41,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+
     margin: 0px 10%;
 }
 
@@ -51,7 +52,6 @@ footer {
     flex-basis: 100%;
     flex: 1;
 
-    background: pink;
     border-right: 3px solid var(--darkslateblue);
     margin-right: 3px;
 }
@@ -74,6 +74,15 @@ footer {
 
 
     border: 3px solid var(--skyblue);
+}
+
+/* Copy of .contentColumn without the border for the Contact Me Section */
+
+.contentColumnContact {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
 }
 
 .contentColumnHalf {
@@ -165,4 +174,20 @@ div.textOverlay p {
 
     padding: 5px 10px;
     background: var(--skyblue);
+}
+
+/* Contact Footer */
+
+.contact {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 50px 10px;
+    
+    color: var(--darkslateblue);
+    font-size: 22px;
+    text-decoration: underline;
 }
